@@ -1,0 +1,68 @@
+/* public/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #FFDFB9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: initial;
+    position: relative;
+    padding: 0%;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 10vh;
+
+  }
+  
+  h1{
+    color: #a4193d;
+    position: relative;
+    top: 5px;
+    font-size: 50px;
+  }
+
+  h2{
+    color: #A4193D;
+    position: relative;
+    top: 5px;
+    font-size: 40px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #A4193D; /* Use #FFDFB9 for all labels */
+    position: relative;
+    top: 3px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  button[type="submit"] {
+    background-color: #A4193D;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #8f1437;
+  }
+  
+  select {
+    width: 170px;
+    height: 25px;
+  }
+
+  input:hover {
+    background-color: #FFDFB9;
+    border-bottom-color: #8f1437;
+  }
+
+  select:hover {
+    background-color: #FFDFB9;
+    border-bottom-color: #8f1437;
+  }
